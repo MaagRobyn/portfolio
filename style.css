@@ -93,8 +93,21 @@ html{
     background-color: #004;
 }
 
-.pdfbutton:hover{
-    background-color: #227;
+.githubbutton:hover{
+    background-color: #339;
+}
+
+.downloadbutton{
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+    padding:8px;
+    border-radius: 10px;
+    background-color: #0c0;
+}
+
+.downloadbutton:hover{
+    background-color: #090;
 }
 
 .textbody{
@@ -106,4 +119,9 @@ html{
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 25px;
+}
+
+.detailsList{
+    margin-left: 5%;
+    list-style-type: none;
 }
